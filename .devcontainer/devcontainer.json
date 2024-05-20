@@ -7,5 +7,12 @@
     ],
     "service": "ubuntu-texlive-ja",
     "workspaceFolder": "/workdir",
-    "shutdownAction": "stopCompose"
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extensions.verifySignature": false
+            }
+        }
+    }
 }
